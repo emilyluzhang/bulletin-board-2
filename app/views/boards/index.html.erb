@@ -37,7 +37,8 @@
     <li>
       <a href="/boards/<%= a_board.id %>">
         <%= a_board.name %>
-      </a>
+      </a> <div> <a>Owner: <%= a_board.user.email %></a> </div>
+      <hr>
     </li>
   <% end %>
 </ul>
